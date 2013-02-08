@@ -16,7 +16,7 @@ To install this module type the following:
 DOCUMENTATION
 -------------
 
-A comprehensive module documentation is available on [CPAN](http://search.cpan.org/~pawelkrol/D64-Disk-Layout-Sector/lib/D64/Disk/Layout/Sector.pm).
+A comprehensive module documentation is available on [CPAN](http://search.cpan.org/~pawelkrol/D64-Disk-Layout-Sector/Sector.pm).
 
 COPYRIGHT AND LICENCE
 ---------------------
