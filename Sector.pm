@@ -81,7 +81,7 @@ use strict;
 use utf8;
 use warnings;
 
-our $VERSION = 0.01;
+our $VERSION = '0.02';
 
 use Data::Dumper;
 use Readonly;
@@ -704,7 +704,7 @@ Pawel Krol, E<lt>pawelkrol@cpan.orgE<gt>.
 
 =head1 VERSION
 
-Version 0.01 (2013-02-08)
+Version 0.02 (2013-02-10)
 
 =head1 COPYRIGHT AND LICENSE
 
