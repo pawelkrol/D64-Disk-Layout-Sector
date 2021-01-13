@@ -462,7 +462,7 @@ sub ts_link {
 
     if (defined $track || defined $sector) {
         unless (defined $track) {
-            die sprintf q{Undefined value of track location for the next chunk of data in a chain (single byte expected)}, $self->_dump($track);
+            die sprintf q{Undefined value of track location for the next chunk of data in a chain (single byte expected)};
         }
         if (ref $track) {
             die sprintf q{Invalid type (%s) of track location for the next chunk of data in a chain (single byte expected)}, $self->_dump($track);
@@ -475,7 +475,7 @@ sub ts_link {
         }
 
         unless (defined $sector) {
-            die sprintf q{Undefined value of sector location for the next chunk of data in a chain (single byte expected)}, $self->_dump($sector);
+            die sprintf q{Undefined value of sector location for the next chunk of data in a chain (single byte expected)};
         }
         if (ref $sector) {
             die sprintf q{Invalid type (%s) of sector location for the next chunk of data in a chain (single byte expected)}, $self->_dump($sector);
